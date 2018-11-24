@@ -1,0 +1,35 @@
+{
+  "name": "empty-project-template",
+  "main": "node_modules/expo/AppEntry.js",
+  "private": true,
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.1.5",
+    "@types/react": "^16.7.7",
+    "@types/react-native": "^0.57.13",
+    "@types/react-navigation": "^2.13.4",
+    "expo": "^31.0.5",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.1.tar.gz",
+    "react-native-typescript-transformer": "^1.2.10",
+    "react-navigation": "^3.0.0",
+    "react-navigation-fluid-transitions": "^0.2.73",
+    "typescript": "^3.1.6"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^5.0.0",
+    "concurrently": "^4.1.0",
+    "rimraf": "^2.6.2",
+    "schedule": "^0.4.0"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
+  }
+}
